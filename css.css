@@ -1,0 +1,664 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo h3 {
+    float: right;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-right: 150px;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 16px;
+    float: left;
+    width: 325px;
+    height: 100px;
+}
+
+.logo-img {
+    width: 75px;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu {
+    float: left;
+    width: 700px;
+    height: 100px;
+    list-style: none;
+}
+
+.link {
+    float: left;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.ul1 {
+    margin-top: 40px;
+    margin-left: 50px;
+    float: left;
+    list-style: none;
+}
+
+.ul2 {
+    float: left;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.ul1 li {
+    display: none;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.ul2 li {
+    display: none;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
+.menu :hover {
+    color: rgb(255, 0, 0);
+    transition: all 0.15s;
+}
+
+.link1 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.link2 {
+    margin-left: 100px;
+}
+
+.menu li:hover > .ul1 li {
+    display: block;
+    position: relative;
+}
+
+.menu li:hover > .ul2 li {
+    display: block;
+    position: relative;
+}
+
+.ul1 li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.ul2 li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.login {
+    width: 400px;
+    float: left;
+    height: 100px;
+    margin-top: 16px;
+}
+
+.mag {
+    width: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+}
+
+.shop {
+    width: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    float: left;
+}
+
+.login-button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 25px;
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.text {
+    float: left;
+    margin-left: 80px;
+    margin-top: 10px;
+    background-color: #FEE9DE;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: rgb(255, 0, 0);
+}
+
+.big-image {
+    float: right;
+    width: 780px;
+}
+
+.img1 {
+    width: 650px;
+    height: 600px;
+}
+
+.description {
+    margin-top: 150px;
+    margin-left: 80px;
+    font-size: 50px;
+}
+
+.big-div1 {
+    float: left;
+    height: 200px;
+}
+
+.big-div2 {
+    float: left;
+    width: 700px;
+    height: 608px;
+}
+
+.big-div4 {
+    float: right;
+}
+
+.red {
+    color: rgb(255, 0, 0);
+    font-style: italic;
+}
+
+.big {
+    font-weight: bold;
+}
+
+.description1 {
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.button {
+    float: left;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 0);
+}
+
+.video-button {
+    float: left;
+}
+
+.video-button a img {
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.video-button div {
+    float: right;
+    margin-top: 45px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.serve {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    float: left;
+    padding-left: 680px;
+    margin-top: 70px;
+    width: 820px;
+}
+
+.biggest-div1 {
+    float: left;
+}
+
+.serve1 {
+    float: left;
+    padding-left: 560px;
+    width: 950px;
+    font-size: 50px;
+}
+
+.serve2 {
+    float: left;
+    padding-left: 585px;
+    width: 930px;
+    font-size: 50px;
+    margin-top: -20px;
+}
+
+.biggest-div2 {
+    height: 375px;
+    width: 1519px;
+    float: left;
+}
+
+.block-1 {
+    width: 300px;
+    float: left;
+    height: 375px;
+    margin-left: 100px;
+}
+
+.block-1 img {
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.block-1 h2 {
+    text-align: center;
+}
+
+.block-1 div {
+    text-align: center;
+    font-size: 20px;
+}
+
+.block-2 {
+    width: 300px;
+    float: left;
+    height: 375px;
+    margin-left: 200px;
+}
+
+.block-2 img {
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.block-2 h2 {
+    text-align: center;
+}
+
+.block-2 div {
+    text-align: center;
+    font-size: 20px;
+}
+
+.our-menu {
+    float: left;
+    color: rgb(255, 0, 0);
+    padding-left: 100px;
+    margin-top: 100px;
+    width: 1415px;
+}
+
+.menu-desc {
+    float: left;
+    padding-left: 100px;
+    width: 1415px;
+    font-size: 40px;
+}
+
+.m1 {
+    margin-top: -25px;
+}
+
+.food-div {
+    float: left;
+    width: 420px;
+    height: 400px;
+    overflow: auto;
+    margin-left: 50px;
+}
+
+.food-div div {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.food {
+    text-decoration: none;
+    float: left;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding: 15px 35px 15px 10px;
+    border-radius: 50px;
+}
+
+.food:hover {
+    transition: all 0.2s;
+    background-color: rgb(255, 0, 0);
+}
+
+.biggest-div3 {
+    float: left;
+    width: 1400px;
+}
+
+.img-div {
+    float: right;
+}
+
+.pic2 {
+    float: right;
+    width: 300px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.pic1 {
+    float: right;
+    width: 392px;
+    border-radius: 30px;
+}
+
+.biggest-div4 {
+    float: left;
+    width: 1500px;
+    height: 800px;
+}
+
+.chef-pic {
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.chef-pic img {
+    width: 500px;
+}
+
+.text1 {
+    float: left;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.text1 h3 {
+    margin-top: 100px;
+    color: rgb(255, 0, 0);
+}
+
+.text1 h1 {
+    font-size: 50px;
+}
+
+.top {
+    margin-top: -30px;
+}
+
+.text1 div {
+    font-size: 20px;
+}
+
+.text1 img {
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.whole {
+    float: left;
+    background-color: #FFF6F2;
+    width: 1300px;
+    margin-left: 100px;
+    height: 700px;
+    border-radius: 50px;
+}
+
+.texts {
+    float: left;
+    width: 500px;
+    height: 700px;
+}
+
+.texts h3 {
+    margin-left: 100px;
+    margin-top: 150px;
+    color: rgb(255, 0, 0);
+}
+
+.texts h1 {
+    margin-left: 100px;
+    font-size: 50px;
+}
+
+.special {
+    margin-top: -30px;
+}
+
+.download-div {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.texts a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 25px 50px;
+    border-radius: 50px;
+}
+
+.a-div {
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.pictures {
+    float: right;
+    width: 775px;
+}
+
+.big-pic {
+    width: 450px;
+    border-radius: 50px;
+    float: right;
+    margin-top: 160px;
+}
+
+.box {
+    float: right;
+    width: 140px;
+    margin-top: 280px;
+    margin-right: 50px;
+}
+
+.biggest-div5 {
+    float: left;
+    width: 1500px;
+    height: 310px;
+    margin-top: 200px;
+}
+
+.img2 {
+    width: 75px;
+    margin-left: 50px;
+    float: left;
+}
+
+.div1 {
+    float: left;
+    width: 400px;
+    height: 310px;
+}
+
+.Name {
+    float: left;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.desk {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.ins {
+    width: 20px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.face {
+    width: 15px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.twit {
+    width: 25px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.div2 {
+    float: left;
+    width: 200px;
+    height: 310px;
+}
+
+.h4 {
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    width: 200px;
+    margin-left: 65px;
+}
+
+.div-inside {
+    float: left;
+    width: 120px;
+    margin-top: 25px;
+    margin-left: 65px;
+}
+
+.div2 a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.div1-1 {
+    margin-top: 40px;
+}
+
+.div3 {
+    float: left;
+    width: 300px;
+    height: 310px;
+}
+
+.div4 {
+    float: left;
+    width: 300px;
+    height: 310px;
+}
+
+.div5 {
+    float: left;
+    width: 300px;
+    height: 310px;
+}
+
+.div-inside2 {
+    float: left;
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 65px;
+}
+
+.div-inside3 {
+    float: left;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+.div-inside4 {
+    float: left;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+.div3 a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.div4 a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.div5 a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.div1-2 {
+    margin-top: 40px;
+}
+
+.div1-3 {
+    margin-top: 40px;
+}
+
+.div1-4 {
+    margin-top: 40px;
+}
+
+
+.h5 {
+    margin-left: 45px;
+}
+
+.last-div {
+    width: 250px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.last-div img {
+    width: 175px;
+    border-radius: 50px;
+}
